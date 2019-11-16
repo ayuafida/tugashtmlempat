@@ -1,0 +1,71 @@
+/* CSS Document */
+
+body {
+background-image:url(../gambar/main_bg.gif);
+background-repeat:no-repeat;
+background-size:cover;
+background-attachment:fixed;
+}
+#wrapper {
+	width:950px;
+	height:780px;
+	margin:auto;
+}
+#wrapper #header{
+height:250px;
+background-image:url(../gambar/steve-jobs-face.jpg);
+}
+
+#wrapper  #menu{
+height:50px;
+background-color:#000000;
+}
+
+#wrapper  #menu a{
+list-style-type:none;
+font-size:24px;
+text-decoration:none;
+color:#FFFFFF;
+line-height:50px;
+
+}
+
+
+
+
+#wrapper  #menu a:hover{
+color:#333333;
+}
+
+#wrapper #content {
+height:600px;
+
+
+}
+#wrapper #content #content_left {
+width:300px;
+height:625px;
+float:left;
+
+}
+#wrapper #content #content_right {
+	width:630px;
+	height:590px;
+	float:right;
+	background-color:#ffffff;
+	margin-top: 15px;
+	padding: 10px;
+
+
+
+
+
+
+}
+
+#wrapper #footer {
+	height:50px;
+	text-align:center;
+	margin-top: 50px;
+
+}
